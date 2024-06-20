@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 900px;
+    margin: 20px auto;
+    background: #d1cac0;
+    border-radius: 10px;
+}
+.container>h1{
+    text-align: center;
+    padding: 20px;
+}
+.content>h2{
+    text-align: center;
+
+}
+.content>form{
+    padding: 10px 20px;
+    box-shadow: 1px 1px 5px #eee;
+    margin: auto;
+    width: 50%;
+}
+.content>form>input{
+    display: block;
+    padding: 8px 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom:15px ;
+}
+.content-column{
+    display: flex;
+    margin: 20px;
+}
+.column{
+    border: 1px solid black;
+    padding: 5px 10px;
+    flex: 5;
+    margin-right: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 5px #fff;
+    margin-bottom: 10px;
+}
+.column>h3{
+    text-align: center;
+}
+
+.form-buku>input[type='submit']{
+    background-color: green;
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+    color: #fff;
+}
+
+.cari{
+    display: flex;
+    padding: 20px;
+}
+.form-buku>.cari>input[type='checkbox']{
+    margin: 0 5px;
+}
+
+.tombol-batal{
+    width: 20px;
+    /* height: 40px; */
+    background-size: contain;
+    margin-left: auto;
+    cursor: pointer;
+    border: none; 
+    background: transparent;
+    color: gray;
+    border-radius: 5px;
+    font-size: 16px; 
+}
+.delete-buku{
+    width: 20px;
+    /* height: 40px; */
+    background-size: contain;
+    margin-left: 16px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: red;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.check-button {
+    width: 20px;
+    /* height: 0px; */
+    background-size: contain;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: green;
+    border-radius: 5px;
+    font-size: 16px;
+}
+p{
+    display: inline;
+    margin: 0 5px;
+}
+.item {
+    border-radius: 16px;
+    margin-top: 16px;
+    padding: 12px 24px 12px 24px;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+
+.item >.inner h2 {
+    margin-bottom: unset;
+}
+
+@media screen and (max-width:800px) {
+    .content-column{
+        display: block;
+    }   
+}

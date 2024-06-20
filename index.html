@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf Apps</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bookshelf Apps</h1>
+        <div class="content">
+            <h2>Tambah Data Buku Baru</h2>
+           <form action="" class="form-buku" id="form-buku">   
+            <label for="judul">Judul</label>
+            <input type="text" name="Judul" id="judul-buku">
+
+            <label for="penulis">Penulis</label>
+            <input type="text" name="penulis" id="penulis-buku">
+
+            <label for="tahun">Tahun</label>
+            <input type="text" name="tahun" id="tahun-buku">
+
+            <div class="cari">
+            <input type="checkbox" name="" id="checkSelesai">
+            <label for="checkSelesai">Selesai Dibaca? </label>
+            </div>
+            <input type="submit" value="Tambah" id="tambah-buku">
+        </form>
+        <!-- <div class="cari">
+            <input type="text"  id="cari-buku" placeholder="Ketik Judul Buku.." onkeyup="cariBuku()">
+        </div> -->
+
+     
+       
+    </div>
+    <div class="content-column">
+        <div class="column">
+            <h3>Belum Selesai Dibaca</h3>
+            <div class="list-book" id="belum-dibaca"></div>
+        </div>
+
+        <div class="column">
+            <h3>Selesai Dibaca</h3>
+            <div class="list-book" id="sudah-dibaca"></div>
+
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+    <!-- <script src="test.js"></script> -->
+    <script>
+       
+       
+
+    </script>
+</body>
+</html>
